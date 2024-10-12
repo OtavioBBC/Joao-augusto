@@ -1,0 +1,1274 @@
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #hero-81 {
+    /* Centers button */
+    text-align: center;
+    /* 144px - 300px - leaving extra space for the navigation */
+    padding: var(--sectionPaddingMobile);
+    /* 130px - 450px */
+    position: relative;
+    z-index: 1;
+    /* Prevents white rectangle pseudos from overlapping the sections below */
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(/assets/backgrounds/hero-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 600px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #hero-81 #cs-form-265 label {
+    font-size: 1rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    /* 12px - 20px */
+    margin-bottom: clamp(0.75rem, 1.3em, 1.25rem);
+    color: var(--headerColor);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #hero-81 #cs-form-265 .cs-label-message {
+    /* 32px - 48px */
+    margin-bottom: clamp(2rem, 6.3vw, 3rem);
+  }
+  #hero-81 #cs-form-265 input,
+  #hero-81 #cs-form-265 textarea {
+    font-size: 1rem;
+    width: 100%;
+    height: 4rem;
+    margin-top: 0.25rem;
+    padding-left: 1.25rem;
+    border: 1px solid #B4B2C7;
+    border-radius: 0.25rem;
+    /* prevents border & padding from affecting height */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: border .3s;
+    transition: border .3s;
+  }
+  #hero-81 #cs-form-265 input:hover,
+  #hero-81 #cs-form-265 textarea:hover {
+    border: 1px solid var(--primary);
+  }
+  #hero-81 #cs-form-265 textarea {
+    font-family: inherit;
+    padding-top: 1.25rem;
+    min-height: 7.5rem;
+  }
+  #hero-81 #cs-form-265 .cs-button-solid {
+    width: 100%;
+    font-family: "Metropolis";
+  }
+  #hero-81 .cs-submit {
+    width: 100%;
+    border: none;
+  }
+  #hero-81 .cs-submit:hover {
+    cursor: pointer;
+  }
+  #hero-81 .cs-background {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+  }
+  #hero-81 .cs-background img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #hero-81 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    max-width: 67.5rem;
+    margin-top: 2rem;
+  }
+  #hero-81 .cs-button-solid {
+    font-size: 1rem;
+  }
+  #hero-81 .cs-title {
+    /* 36px - 61px */
+    font-size: clamp(2rem, 6.4vw, 3.8125rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 51.8125rem;
+    /* 16px - 24px */
+    position: relative;
+  }
+  #hero-81 .cs-title span {
+    color: var(--primary);
+    font-weight: 700;
+  }
+  #hero-81 .cs-text {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 1.95vw, 1.5625rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    /* 464px - 800px */
+    max-width: clamp(29rem, 60vw, 50rem);
+    margin: 0 auto 1rem;
+    /* 40px - 48px */
+    color: var(--bodyTextColor);
+  }
+  #hero-81 .cs-picture {
+    display: block;
+    position: relative;
+    width: clamp(100% 50% 100%);
+    height: 10%;
+    margin-top: 2rem;
+  }
+  #hero-81 .cs-picture img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/* Desktop - 1300px (To make image background parallax) */
+@media only screen and (min-width: 65rem) {
+  #hero-81 {
+    padding: clamp(6rem, 9.6vh, 6rem) 1rem 7rem;
+    background-color: var(--secondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("/assets/backgrounds/hero-desk.jpg");
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 1080px;
+  }
+  #hero-81 #cs-form-265 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 31rem;
+    padding-top: 0.69rem;
+  }
+  #hero-81 #cs-form-265 label {
+    width: 100%;
+    max-width: 14.4rem;
+  }
+  #hero-81 #cs-form-265 input,
+  #hero-81 #cs-form-265 textarea {
+    width: 100%;
+  }
+  #hero-81 #cs-form-265 .cs-label-message {
+    width: 35rem;
+    max-width: 31rem;
+    margin-bottom: 2.7rem;
+  }
+  #hero-81 .cs-button-solid {
+    margin-top: 1.5rem;
+    font-size: 1.25em;
+    width: 90%;
+    height: 5rem;
+    line-height: 5rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #hero-81 .textbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+  }
+  #hero-81 .cs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: self-start;
+        -ms-flex-align: self-start;
+            align-items: self-start;
+    margin: 0;
+    width: 100%;
+  }
+  #hero-81 .cs-title {
+    font-size: 2.75em;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #hero-81 .cs-text {
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+  #hero-81 .cs-picture {
+    position: static;
+    margin-top: 1rem;
+  }
+  #hero-81 .cs-picture img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*-- -------------------------- -->
+<---          O QUE FAZEMOS     -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-285 {
+    /* centers the button */
+    text-align: center;
+    padding: var(--sectionPaddingMobile);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(/assets/backgrounds/beneficios-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #services-285 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #services-285 .cs-li:before {
+    /* accent shape */
+    content: url("/assets/icons/checar.svg");
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    /* prevents flexbox from squishing it */
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  #services-285 #cs-list {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  #services-285 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* 48px - 64px */
+    gap: clamp(2rem, 6vw, 2rem);
+  }
+  #services-285 .cs-text {
+    margin-top: 1rem;
+  }
+  #services-285 .cs-title {
+    font-size: clamp(2rem, 6.4vw, 3.8125rem);
+    font-weight: 700;
+  }
+  #services-285 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #services-285 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1rem;
+  }
+  #services-285 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 31.25rem;
+    /* 32px - 40px top & bottom */
+    /* 28px - 40px left & right */
+    padding: clamp(2rem, 3vw, 2.5rem) clamp(1.75rem, 3vw, 2.5rem);
+    background-color: #E0DCF8;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
+    transition: background-color 0.3s, -webkit-transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  }
+  #services-285 .cs-item:hover {
+    background-color: var(--primary);
+    -webkit-transform: translateY(-0.4375rem);
+            transform: translateY(-0.4375rem);
+  }
+  #services-285 .cs-item:hover .cs-picture:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  #services-285 .cs-item:hover .cs-h3,
+  #services-285 .cs-item:hover .cs-item-text {
+    color: #fff;
+  }
+  #services-285 .cs-link {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-285 cs-picture {
+    width: 100%;
+    height: 100%;
+  }
+  #services-285 img {
+    width: 80%;
+    height: 80%;
+  }
+  #services-285 .cs-h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    color: var(--headerColor);
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  #services-285 .cs-item-text {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  #services-285 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    padding: 0 1.5rem;
+    background-color: linear-gradient(180deg, rgba(255, 30, 30, 0) 25%, rgba(247, 130, 130, 0) 80%);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #services-285 .cs-button-solid:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+  #services-285 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-285 {
+    padding-bottom: 7rem;
+    background-image: url("/assets/backgrounds/beneficios-desktop.jpg");
+    height: 1080px;
+    background-size: contain;
+  }
+  #services-285 .cs-picture {
+    width: 50%;
+  }
+  #services-285 .img {
+    width: 20%;
+    height: 20%;
+  }
+  #services-285 .cs-content {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #services-285 .cs-title {
+    font-size: var(--h2);
+  }
+  #services-285 .cs-text {
+    width: 38rem;
+  }
+}
+/*-- -------------------------- -->
+<---      PASSO A PASSO         -->
+<--- -------------------------- -*/
+@media only screen and (min-width: 0rem) {
+  #services-286 {
+    text-align: center;
+    padding: var(--sectionPaddingMobile);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-286 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 48px - 64px */
+    gap: clamp(2rem, 6vw, 2rem);
+  }
+  #services-286 .cs-title {
+    font-size: clamp(2rem, 6.4vw, 3.8125rem);
+    font-weight: 700;
+  }
+  #services-286 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+  #services-286 .cs-content .cs-card-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+  #services-286 .cs-content .cs-card-group .cs-item {
+    padding: 0px 25px 0px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: .5rem;
+  }
+  #services-286 .cs-content .cs-card-group .cs-item .cs-icon {
+    border-radius: 5px;
+  }
+}
+/* Tablet - 768px */
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #cta-697 {
+    padding: var(--sectionPaddingMobile);
+    background: #880000;
+    background: linear-gradient(135deg, #880000 25%, #b80000 80%);
+    position: relative;
+    z-index: 1;
+  }
+  #cta-697 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #cta-697 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 48px - 64px */
+    gap: 1rem;
+  }
+  #cta-697 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+  #cta-697 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: var(--bodyTextColorWhite);
+    background: #ff1e1e;
+    background: white;
+    color: #000;
+    padding: 0 1.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #cta-697 .cs-button-solid:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #ffffff;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+  #cta-697 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #cta-697 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* makes it act like a background image */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #cta-697 .cs-content {
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #quem-somos {
+    /* Centers button */
+    text-align: center;
+    /* 144px - 300px - leaving extra space for the navigation */
+    padding: var(--sectionPaddingMobile);
+    /* 130px - 450px */
+    position: relative;
+    z-index: 1;
+    /* Prevents white rectangle pseudos from overlapping the sections below */
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(/assets/backgrounds/quem-somos-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 1200px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #quem-somos .cs-background {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+  }
+  #quem-somos .cs-background img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #quem-somos .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    max-width: 67.5rem;
+    margin-top: 2rem;
+  }
+  #quem-somos .cs-button-solid {
+    font-size: 1rem;
+  }
+  #quem-somos .cs-title {
+    /* 36px - 61px */
+    font-size: clamp(2rem, 6.4vw, 3.8125rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 51.8125rem;
+    /* 16px - 24px */
+    position: relative;
+  }
+  #quem-somos .cs-title span {
+    color: var(--primary);
+    font-weight: 700;
+  }
+  #quem-somos .cs-text {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 1.95vw, 1.5625rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    /* 464px - 800px */
+    max-width: clamp(29rem, 60vw, 50rem);
+    margin: 0 auto 1rem;
+    /* 40px - 48px */
+    color: var(--bodyTextColor);
+  }
+  #quem-somos .cs-picture {
+    display: block;
+    position: relative;
+    width: clamp(100% 50% 100%);
+    height: 10%;
+    margin-top: 2rem;
+  }
+  #quem-somos .cs-picture img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/* Desktop - 1300px (To make image background parallax) */
+@media only screen and (min-width: 65rem) {
+  #quem-somos {
+    padding: clamp(6rem, 9.6vh, 6rem) 1rem 7rem;
+    background-color: var(--secondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("/assets/backgrounds/hero-desk.jpg");
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #quem-somos #cs-form-265 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 31rem;
+    padding-top: 0.69rem;
+  }
+  #quem-somos #cs-form-265 label {
+    width: 100%;
+    max-width: 14.4rem;
+  }
+  #quem-somos #cs-form-265 input,
+  #quem-somos #cs-form-265 textarea {
+    width: 100%;
+  }
+  #quem-somos #cs-form-265 .cs-label-message {
+    width: 35rem;
+    max-width: 31rem;
+    margin-bottom: 2.7rem;
+  }
+  #quem-somos .cs-button-solid {
+    margin-top: 1.5rem;
+    font-size: 1.25em;
+    width: 90%;
+    height: 5rem;
+    line-height: 5rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #quem-somos .textbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+  }
+  #quem-somos .cs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: self-start;
+        -ms-flex-align: self-start;
+            align-items: self-start;
+    margin: 0;
+    width: 100%;
+  }
+  #quem-somos .cs-title {
+    font-size: 2.75em;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #quem-somos .cs-text {
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+  #quem-somos .cs-picture {
+    position: static;
+    margin-top: 1rem;
+  }
+  #quem-somos .cs-picture img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*-- -------------------------- -->
+<---        Why Choose          -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-296 {
+    padding: var(--sectionPaddingMobile);
+  }
+  #services-296 .cs-container {
+    width: 100%;
+    /* changes to 1440px on desktop */
+    max-width: 43.75rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-296 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #services-296 .cs-title {
+    max-width: 30ch;
+  }
+  #services-296 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+  }
+  #services-296 .cs-item {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    background-color: #8a0101;
+    border-radius: 0.25rem;
+    /* clips image corners */
+    overflow: hidden;
+    /* prevents padding from adding to height and width */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  }
+  #services-296 .cs-image {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+    background-color: var(--primary);
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+  #services-296 .cs-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s;
+  }
+  #services-296 .cs-link {
+    text-decoration: none;
+  }
+  #services-296 .cs-icon {
+    width: auto;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  #services-296 .cs-icon path {
+    -webkit-transition: fill 0.3s;
+    transition: fill 0.3s;
+  }
+  #services-296 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 2vw, 1.5625rem);
+    line-height: 1.2em;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+  #services-296 .cs-item-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+    color: #ffffff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-296 .cs-card-group {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* makes sure every box "stretches" to be the same height as the tallest box */
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #services-296 .cs-item {
+    width: 48.6%;
+  }
+}
+/* Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-296 .cs-container {
+    max-width: 90rem;
+  }
+  #services-296 .cs-card-group {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #services-296 .cs-item {
+    /* we do this so it's stackable. You can add new any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of reviews, they don't stay centered.  They align with their grid lines. If you want 4 reviews in a row, lower the width under 22.5vw or 23% to get the desired sizes fit 4 in a row and then stack when you add more */
+    width: clamp(23.84%, 22.5vw, 23.95%);
+  }
+}
+/*-- -------------------------- -->
+<---          Pricing           -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #pricing-1183 {
+    padding: var(--sectionPadding);
+  }
+  #pricing-1183 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+  }
+  #pricing-1183 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #pricing-1183 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.8vw, 1.25rem);
+    /* prevents flexbox from squishing it */
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  #pricing-1183 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    /* 24px - 40px top & Bottom */
+    /* 16px - 32px left & right */
+    padding: clamp(1.5rem, 3vw, 2.5rem) 1.5rem;
+    background-color: #8a0101;
+    /* prevents padding and border from affecting height and width */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  #pricing-1183 .cs-package {
+    /* 13px - 16px */
+    font-size: clamp(0.8125rem, 1.4vw, 1rem);
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: #ffffff;
+    display: block;
+  }
+  #pricing-1183 .cs-price {
+    /* 31px - 49px */
+    font-size: var(--headerFontSize);
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    color: var(--headerColor);
+  }
+  #pricing-1183 .cs-ul {
+    /* 20px - 25px */
+    margin: clamp(1.25rem, 3vw, 1.5rem) 0 0 0;
+    padding: clamp(1.25rem, 3vw, 1.5rem) 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+  }
+  #pricing-1183 .cs-ul:before {
+    /* divider Line */
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(232, 232, 232, 0.2)), color-stop(53.78%, #e8e8e8), to(rgba(232, 232, 232, 0.2)));
+    background: linear-gradient(90deg, rgba(232, 232, 232, 0.2) 0%, #e8e8e8 53.78%, rgba(232, 232, 232, 0.2) 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+  #pricing-1183 .cs-li {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    list-style: none;
+    line-height: 1.5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--bodyTextColor);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* push everything to the top so if the li goes to two lines the icon stays at the top */
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1rem;
+  }
+  #pricing-1183 .cs-li.cs-disabled {
+    opacity: 0.5;
+  }
+  #pricing-1183 .cs-li.cs-disabled .cs-icon {
+    -webkit-filter: grayscale(1) brightness(300%);
+            filter: grayscale(1) brightness(300%);
+  }
+  #pricing-1183 .cs-icon {
+    width: 1.125rem;
+    height: auto;
+    display: block;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #pricing-1183 .cs-container {
+    max-width: 80rem;
+  }
+  #pricing-1183 .cs-card-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
