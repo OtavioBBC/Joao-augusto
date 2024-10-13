@@ -786,6 +786,15 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
+  #cs-footer-269 .cs-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  #cs-footer-269 .cs-logo .cs-logo-img {
+    width: 50%;
+  }
   #cs-footer-269 .cs-container {
     max-width: 80rem;
     row-gap: 0;
